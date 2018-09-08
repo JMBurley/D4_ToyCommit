@@ -4,8 +4,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return render_template('index.html')
-
+      return """
+<!DOCTYPE html>
+<head>
+   <title>Heroku basic</title>
+</head>
+<body style="width: 880px; margin: auto;">  
+    <h1>Project Basics</h1>
+    <p> This is a toy commit of a flask app for Heroku. </p>
+</body>
+    """
 @app.route('/about')
 def about():
   return render_template('about.html')
