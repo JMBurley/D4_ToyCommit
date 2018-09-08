@@ -12,7 +12,6 @@ def index():
 <body style="width: 880px; margin: auto;">  
     <h1>Project Basics</h1>
     <p> This is a toy commit of a flask app for Heroku. </p>
-	<p>commit with nano as commit editor because vi? wow. no.<\p>
 </body>
     """
 @app.route('/about')
